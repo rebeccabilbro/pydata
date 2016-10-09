@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>District Data Labs - PyData Carolinas 2016</title>
+		<title>District Data Labs - PyData DC 2016</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/ddl.css">
@@ -174,7 +174,7 @@
 						</aside>
 				</section>
 
-				<section id="anscombe" data-background="images/anscombe.png" data-background-size="1000px">
+				<section id="anscombe" data-background="images/anscombe.png" data-background-size="800px">
 					<p><span class="fragment">Anscombe's Quartet</span></p>
 						<aside class="notes"> Recognize this?  It's Anscombe's quartet - four datasets with nearly identical statistical properties but that are no less significantly different. The takeaway is that of all of the analytical tools at our disposal, sometimes our eyes are the most important.
 						</aside>
@@ -374,6 +374,37 @@
 			      </aside>
 				</section>
 
+				<section>
+					<h2>Search for Separability</h2>
+					  <img height="300" data-src="images/pcoord_viz2.png" class="no-border">
+					  <img height="300" data-src="images/rad_viz2.png" class="no-border">
+				  	<aside class="notes"> Implemented our own versions in pure Matplotlib
+			      </aside>
+				</section>
+
+				<section>
+					<h2>Explore Pairs of Features</h2>
+					  <img height="350" data-src="images/rank2dcovariance.png" class="no-border">
+					  <img height="350" data-src="images/rank2dpearson.png" class="no-border">
+				  	<aside class="notes">Rank1D and Rank2D evaluate single features or pairs of features using a variety of metrics that score the features on the scale [-1, 1] or [0, 1] allowing them to be ranked. A similar concept to SPLOMs, the scores are visualized on a lower-left triangle heatmap so that patterns between pairs of features can be easily discerned for downstream analysis.
+			      </aside>
+				</section>
+
+				<section>
+					<h2>Evaluate Your Sklearn Models</h2>
+					  <img height="300" data-src="images/yb_regerr.png" class="no-border">
+					  <img height="300" data-src="images/yb_resids.png" class="no-border">
+				  	<aside class="notes">
+			      </aside>
+				</section>
+
+				<section>
+					<h2>Identify Potential Problems</h2>
+					  <img data-src="images/class_bal.png" class="no-border">
+				  	<aside class="notes">
+			      </aside>
+				</section>
+
 				<section data-markdown>
 					<script type="text/template">
 					<h2>There's no place like</h2>
@@ -386,13 +417,9 @@
 					</script>
 				</section>
 
-				<section data-background="images/trellis.jpg">
-					<h2 class="darkgrey">Cultivar</h2>
-						<aside class="notes"> Project codename: Cultivar. Visual model management system that provides interactivity for feature selection, model selection and tuning. Would love your help. https://flic.kr/p/cS3E7W
-						</aside>
-				</section>
-
-				<section data-background="images/ddlopensource.png" data-background-size="800px">
+				<section>
+					<h2>Testers Wanted!	</h2>
+							bit.ly/ybtesters
 						<aside class="notes"> Join us!
 						</aside>
 				</section>
